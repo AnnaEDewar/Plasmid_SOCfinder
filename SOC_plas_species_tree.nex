@@ -1,0 +1,305 @@
+#NEXUS
+[R-package APE, Tue Oct 10 15:05:47 2023]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 146;
+	TAXLABELS
+		Citrobacter_freundii
+		Citrobacter_portucalensis
+		Salmonella_enterica
+		Escherichia_coli
+		Escherichia_fergusonii
+		Escherichia_albertii
+		Shigella_flexneri
+		Shigella_sonnei
+		Shigella_dysenteriae
+		Shigella_boydii
+		Cronobacter_sakazakii
+		Enterobacter_cloacae
+		Enterobacter_kobei
+		Enterobacter_roggenkampii
+		Enterobacter_asburiae
+		Enterobacter_hormaechei
+		Raoultella_ornithinolytica
+		Klebsiella_oxytoca
+		Klebsiella_michiganensis
+		Klebsiella_grimontii
+		Klebsiella_aerogenes
+		Klebsiella_variicola
+		Klebsiella_pneumoniae
+		Klebsiella_quasipneumoniae
+		Pantoea_ananatis
+		Pantoea_agglomerans
+		Erwinia_amylovora
+		Buchnera_aphidicola
+		Yersinia_pestis
+		Yersinia_pseudotuberculosis
+		Yersinia_enterocolitica
+		Yersinia_ruckeri
+		Serratia_marcescens
+		Providencia_rettgeri
+		Proteus_mirabilis
+		Morganella_morganii
+		Pasteurella_multocida
+		Photobacterium_damselae
+		Vibrio_cholerae
+		Vibrio_campbellii
+		Vibrio_parahaemolyticus
+		Vibrio_alginolyticus
+		Aeromonas_hydrophila
+		Aeromonas_veronii
+		Aeromonas_salmonicida
+		Aeromonas_caviae
+		Alteromonas_macleodii
+		Pseudomonas_aeruginosa
+		Pseudomonas_putida
+		Pseudomonas_syringae
+		Acinetobacter_baumannii
+		Acinetobacter_seifertii
+		Acinetobacter_pittii
+		Acinetobacter_haemolyticus
+		Acinetobacter_indicus
+		Acinetobacter_johnsonii
+		Piscirickettsia_salmonis
+		Legionella_pneumophila
+		Coxiella_burnetii
+		Xanthomonas_oryzae
+		Xanthomonas_citri
+		Xanthomonas_phaseoli
+		Xanthomonas_campestris
+		Xylella_fastidiosa
+		Ralstonia_solanacearum
+		Burkholderia_cenocepacia
+		Burkholderia_multivorans
+		Burkholderia_pseudomallei
+		Burkholderia_glumae
+		Neisseria_gonorrhoeae
+		Rhizobium_leguminosarum
+		Rhizobium_phaseoli
+		Agrobacterium_fabrum
+		Agrobacterium_tumefaciens
+		Sinorhizobium_meliloti
+		Pseudosulfitobacter_pseudonitzschiae
+		Phaeobacter_inhibens
+		Zymomonas_mobilis
+		Acetobacter_pasteurianus
+		Helicobacter_pylori
+		Campylobacter_jejuni
+		Campylobacter_coli
+		Campylobacter_fetus
+		Borrelia_miyamotoi
+		Borreliella_burgdorferi
+		Leptospira_interrogans
+		Leptospira_noguchii
+		Chlamydia_psittaci
+		Chlamydia_trachomatis
+		Parabacteroides_distasonis
+		Bacteroides_fragilis
+		Bacteroides_thetaiotaomicron
+		Thermus_thermophilus
+		Deinococcus_radiodurans
+		Clavibacter_michiganensis
+		Streptomyces_clavuligerus
+		Prescottella_equi
+		Rhodococcus_pyridinivorans
+		Rhodococcus_erythropolis
+		Rhodococcus_qingshengii
+		Mycobacteroides_abscessus
+		Mycobacterium_avium
+		Mycobacterium_intracellulare
+		Leuconostoc_mesenteroides
+		Weissella_cibaria
+		Pediococcus_acidilactici
+		Pediococcus_pentosaceus
+		Lacticaseibacillus_paracasei
+		Lacticaseibacillus_rhamnosus
+		Lactobacillus_helveticus
+		Latilactobacillus_sakei
+		Latilactobacillus_curvatus
+		Ligilactobacillus_salivarius
+		Lactiplantibacillus_plantarum
+		Limosilactobacillus_reuteri
+		Levilactobacillus_brevis
+		Enterococcus_faecalis
+		Enterococcus_faecium
+		Enterococcus_hirae
+		Lactococcus_lactis
+		Lactococcus_cremoris
+		Streptococcus_thermophilus
+		Streptococcus_suis
+		Listeria_innocua
+		Listeria_monocytogenes
+		Staphylococcus_aureus
+		Staphylococcus_argenteus
+		Staphylococcus_epidermidis
+		Staphylococcus_haemolyticus
+		Staphylococcus_saprophyticus
+		Staphylococcus_simulans
+		Bacillus_anthracis
+		Bacillus_cereus
+		Bacillus_thuringiensis
+		Bacillus_toyonensis
+		Bacillus_mycoides
+		Bacillus_cytotoxicus
+		Priestia_megaterium
+		Bacillus_subtilis
+		Bacillus_licheniformis
+		Bacillus_velezensis
+		Bacillus_amyloliquefaciens
+		Clostridioides_difficile
+		Clostridium_botulinum
+		Clostridium_butyricum
+		Clostridium_perfringens
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Citrobacter_freundii,
+		2	Citrobacter_portucalensis,
+		3	Salmonella_enterica,
+		4	Escherichia_coli,
+		5	Escherichia_fergusonii,
+		6	Escherichia_albertii,
+		7	Shigella_flexneri,
+		8	Shigella_sonnei,
+		9	Shigella_dysenteriae,
+		10	Shigella_boydii,
+		11	Cronobacter_sakazakii,
+		12	Enterobacter_cloacae,
+		13	Enterobacter_kobei,
+		14	Enterobacter_roggenkampii,
+		15	Enterobacter_asburiae,
+		16	Enterobacter_hormaechei,
+		17	Raoultella_ornithinolytica,
+		18	Klebsiella_oxytoca,
+		19	Klebsiella_michiganensis,
+		20	Klebsiella_grimontii,
+		21	Klebsiella_aerogenes,
+		22	Klebsiella_variicola,
+		23	Klebsiella_pneumoniae,
+		24	Klebsiella_quasipneumoniae,
+		25	Pantoea_ananatis,
+		26	Pantoea_agglomerans,
+		27	Erwinia_amylovora,
+		28	Buchnera_aphidicola,
+		29	Yersinia_pestis,
+		30	Yersinia_pseudotuberculosis,
+		31	Yersinia_enterocolitica,
+		32	Yersinia_ruckeri,
+		33	Serratia_marcescens,
+		34	Providencia_rettgeri,
+		35	Proteus_mirabilis,
+		36	Morganella_morganii,
+		37	Pasteurella_multocida,
+		38	Photobacterium_damselae,
+		39	Vibrio_cholerae,
+		40	Vibrio_campbellii,
+		41	Vibrio_parahaemolyticus,
+		42	Vibrio_alginolyticus,
+		43	Aeromonas_hydrophila,
+		44	Aeromonas_veronii,
+		45	Aeromonas_salmonicida,
+		46	Aeromonas_caviae,
+		47	Alteromonas_macleodii,
+		48	Pseudomonas_aeruginosa,
+		49	Pseudomonas_putida,
+		50	Pseudomonas_syringae,
+		51	Acinetobacter_baumannii,
+		52	Acinetobacter_seifertii,
+		53	Acinetobacter_pittii,
+		54	Acinetobacter_haemolyticus,
+		55	Acinetobacter_indicus,
+		56	Acinetobacter_johnsonii,
+		57	Piscirickettsia_salmonis,
+		58	Legionella_pneumophila,
+		59	Coxiella_burnetii,
+		60	Xanthomonas_oryzae,
+		61	Xanthomonas_citri,
+		62	Xanthomonas_phaseoli,
+		63	Xanthomonas_campestris,
+		64	Xylella_fastidiosa,
+		65	Ralstonia_solanacearum,
+		66	Burkholderia_cenocepacia,
+		67	Burkholderia_multivorans,
+		68	Burkholderia_pseudomallei,
+		69	Burkholderia_glumae,
+		70	Neisseria_gonorrhoeae,
+		71	Rhizobium_leguminosarum,
+		72	Rhizobium_phaseoli,
+		73	Agrobacterium_fabrum,
+		74	Agrobacterium_tumefaciens,
+		75	Sinorhizobium_meliloti,
+		76	Pseudosulfitobacter_pseudonitzschiae,
+		77	Phaeobacter_inhibens,
+		78	Zymomonas_mobilis,
+		79	Acetobacter_pasteurianus,
+		80	Helicobacter_pylori,
+		81	Campylobacter_jejuni,
+		82	Campylobacter_coli,
+		83	Campylobacter_fetus,
+		84	Borrelia_miyamotoi,
+		85	Borreliella_burgdorferi,
+		86	Leptospira_interrogans,
+		87	Leptospira_noguchii,
+		88	Chlamydia_psittaci,
+		89	Chlamydia_trachomatis,
+		90	Parabacteroides_distasonis,
+		91	Bacteroides_fragilis,
+		92	Bacteroides_thetaiotaomicron,
+		93	Thermus_thermophilus,
+		94	Deinococcus_radiodurans,
+		95	Clavibacter_michiganensis,
+		96	Streptomyces_clavuligerus,
+		97	Prescottella_equi,
+		98	Rhodococcus_pyridinivorans,
+		99	Rhodococcus_erythropolis,
+		100	Rhodococcus_qingshengii,
+		101	Mycobacteroides_abscessus,
+		102	Mycobacterium_avium,
+		103	Mycobacterium_intracellulare,
+		104	Leuconostoc_mesenteroides,
+		105	Weissella_cibaria,
+		106	Pediococcus_acidilactici,
+		107	Pediococcus_pentosaceus,
+		108	Lacticaseibacillus_paracasei,
+		109	Lacticaseibacillus_rhamnosus,
+		110	Lactobacillus_helveticus,
+		111	Latilactobacillus_sakei,
+		112	Latilactobacillus_curvatus,
+		113	Ligilactobacillus_salivarius,
+		114	Lactiplantibacillus_plantarum,
+		115	Limosilactobacillus_reuteri,
+		116	Levilactobacillus_brevis,
+		117	Enterococcus_faecalis,
+		118	Enterococcus_faecium,
+		119	Enterococcus_hirae,
+		120	Lactococcus_lactis,
+		121	Lactococcus_cremoris,
+		122	Streptococcus_thermophilus,
+		123	Streptococcus_suis,
+		124	Listeria_innocua,
+		125	Listeria_monocytogenes,
+		126	Staphylococcus_aureus,
+		127	Staphylococcus_argenteus,
+		128	Staphylococcus_epidermidis,
+		129	Staphylococcus_haemolyticus,
+		130	Staphylococcus_saprophyticus,
+		131	Staphylococcus_simulans,
+		132	Bacillus_anthracis,
+		133	Bacillus_cereus,
+		134	Bacillus_thuringiensis,
+		135	Bacillus_toyonensis,
+		136	Bacillus_mycoides,
+		137	Bacillus_cytotoxicus,
+		138	Priestia_megaterium,
+		139	Bacillus_subtilis,
+		140	Bacillus_licheniformis,
+		141	Bacillus_velezensis,
+		142	Bacillus_amyloliquefaciens,
+		143	Clostridioides_difficile,
+		144	Clostridium_botulinum,
+		145	Clostridium_butyricum,
+		146	Clostridium_perfringens
+	;
+	TREE * UNTITLED = [&R] (((((((((((((((((((((((((((1:0.001014406818,2:0.001014406818):0.003043220227,3:0.004057627045):0.0141592159,((4:0.002277105503,5:0.002277105503):0.002277105402,6:0.004554210905):0.01366263205):0.0009029152208,(7:0.004779939752,(8:0.002389969918,(9:0.001194984959,10:0.001194984959):0.001194984959):0.002389969834):0.01433981842):0.004561845728,11:0.0236816039):0.6871165646,((12:0.002806826473,(13:0.001403413268,(14:0.000701706634,15:0.000701706634):0.000701706634):0.001403413205):0.002806826296,16:0.005613652769):0.7051845157):0.9390189799,17:1.649817148):0.234789683,((18:0.00327986501,(19:0.001639932554,20:0.001639932554):0.001639932456):0.003279864871,(21:0.003279864962,(22:0.001639932482,(23:0.000819966241,24:0.000819966241):0.0008199662407):0.001639932481):0.003279864919):1.878047102):0.7997123216,((25:0.008024833219,26:0.008024833219):0.02407449945,27:0.03209933267):2.65221982):0.7829752859,(28:0.2360389096,((((29:0.00448573986,30:0.00448573986):0.004485739743,31:0.008971479603):0.008971479399,32:0.017942959):0.05382887618,33:0.07177183518):0.1642670745):3.231255529):0.6381453912,(34:0.04402781663,(35:0.0316536935,36:0.0316536935):0.01237412313):4.061412014):0.9157853653,37:5.021225195):0.5010951074,(38:0.1138823949,(39:0.02847059898,(40:0.01423529954,(41:0.00711764977,42:0.00711764977):0.00711764977):0.01423529944):0.08541179597):5.408437908):0.5838369106,((43:0.03280528043,(44:0.01640264027,45:0.01640264027):0.01640264016):0.03280528023,46:0.06561056066):6.040546653):0.9623168862,47:7.0684741):0.8331315597,((48:0.08023423791,(49:0.040117119,50:0.040117119):0.04011711891):0.2407027132,((((51:0.01002927979,52:0.01002927979):0.01002927974,53:0.02005855954):0.02005855945,54:0.04011711899):0.04011711888,(55:0.04011711894,56:0.04011711894):0.04011711893):0.2407027132):7.580668708):0.9406099507,57:8.84221561):0.8494150964,(58:0.469213498,59:0.469213498):9.222417208):0.2911635992,(((60:0.01489240775,(61:0.00744620392,62:0.00744620392):0.007446203833):0.0148924076,63:0.02978481535):0.08935444541,64:0.1191392608):9.863655045):0.194169495,((65:0.1517388831,(((66:0.009483680299,67:0.009483680299):0.00948368022,68:0.01896736052):0.01896736038,69:0.0379347209):0.1138041622):0.2545704187,70:0.4063093018):9.770654499):0.4351569839,((((((71:0.01510026134,72:0.01510026134):0.04530078371,(73:0.01510026125,74:0.01510026125):0.04530078379):0.003874798659,75:0.0642758437):0.3626708682,(76:0.1277602756,77:0.1277602756):0.2991864363):0.05455670447,78:0.4815034163):0.05831266187,79:0.5398160782):10.07230471):0.7334535009,(80:0.2707686876,((81:0.03384608608,82:0.03384608608):0.03384608597,83:0.06769217205):0.2030765156):11.0748056):0.5184521798,((84:0.1897997888,85:0.1897997888):0.569399366,(86:0.1897997888,87:0.1897997888):0.569399366):11.10482731):0.7347148391,(88:0.087900505,89:0.087900505):12.5108408):0.6472560864,(90:0.2182283086,(91:0.05455707719,92:0.05455707719):0.1636712314):13.02776908):0.7557744732,(93:0.3298786967,94:0.3298786967):13.67189317):0.6378322228,(((95:0.3943070517,96:0.3943070517):0.01066515301,((97:0.03169791349,(98:0.01584895677,(99:0.007924478387,100:0.007924478387):0.007924478384):0.01584895672):0.09509373997,(101:0.03169791346,(102:0.01584895676,103:0.01584895676):0.0158489567):0.09509374):0.2781805513):2.933490713,((((((((104:0.2029625713,105:0.2029625713):0.06201932578,(106:0.0662454743,107:0.0662454743):0.1987364228):0.0506487581,(((108:0.0197269161,109:0.0197269161):0.01972691599,110:0.03945383209):0.03945383194,((111:0.01972691604,112:0.01972691604):0.01972691602,(113:0.01972691603,(114:0.009863458016,(115:0.004931729008,116:0.004931729008):0.004931729008):0.009863458015):0.01972691602):0.03945383197):0.2367229912):0.6435856609,((117:0.03770325981,(118:0.01885162995,119:0.01885162995):0.01885162986):0.1131097788,((120:0.02940973757,121:0.02940973757):0.08822921251,(122:0.02940973759,123:0.02940973759):0.08822921249):0.03317408855):0.8084032775):0.9086243343,(124:0.08808637474,125:0.08808637474):1.779754276):0.5672052984,(((((126:0.005864648782,127:0.005864648782):0.005864648669,128:0.01172929745):0.01172929726,129:0.02345859471):0.02345859448,130:0.04691718918):0.04691718894,131:0.09383437812):2.341211571):0.1366623166,((((((132:0.002922823901,(133:0.001461411999,134:0.001461411999):0.001461411902):0.002922823732,135:0.005845647633):0.005845647429,136:0.01169129506):0.01169129484,137:0.0233825899):0.02338258967,138:0.04676517957):0.04676517934,(139:0.04676517948,(140:0.02338258975,(141:0.01169129488,142:0.01169129488):0.01169129487):0.02338258974):0.04676517943):2.478177906):0.1201647297,(143:0.5099466047,(144:0.1274866513,(145:0.06374332572,146:0.06374332572):0.06374332559):0.3824599534):2.18192639):0.6465899223):11.30114117);
+END;
