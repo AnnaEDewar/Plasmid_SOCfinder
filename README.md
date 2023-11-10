@@ -23,7 +23,7 @@ To build our phylogeny, we used a recently published maximum likelihood tree gen
 The code for how did this is available to download as 'tree_script.R'. It requires the files 'Original_tree.txt' and 'species_146.csv'. Each line of the script edits the tree to produce the final tree, so the lines of code should be run in the order they are in the script.
 
 ### GTDB tree
-We also used the GTDB bacterial reference tree as an alternative phylogeny (version 214.1). The code we used to make a subset of the tree with only species clusters corresponding to our genomes is in: 'GTDB_tree_script.R'. It requires: 'SOC_summary_data_wide_146.csv', 'bac120_r214.tree' and 'bac120_metadata_r214.tsv'.
+We also used the GTDB bacterial reference tree as an alternative phylogeny (version 214.1). The code we used to make a subset of the tree with only species clusters corresponding to our genomes is in: 'GTDB_tree_script.R'. It requires: 'SOC_summary_data_wide_146.csv', 'bac120_r214.tree' and 'bac120_metadata_r214.tsv' [note: this file is too large to upload to GitHub, but is available to download from GTDB at: https://data.gtdb.ecogenomic.org/releases/release214/214.1/.
 
 # Scripts to use SOCfinder on large genomic datasets
 Finally, we have included a html guide with all of the code we used to conduct our analysis with SOCfinder, including selecting and downloading genomes, and extracting data. We hope this will be a helpful example of how SOCfinder could be used in future studies. This is available as: 'plas_chr_SOCfinder_analysis.html'.
